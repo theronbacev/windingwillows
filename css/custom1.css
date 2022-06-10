@@ -1,0 +1,211 @@
+/* For Wines.php */
+
+#productsimg {
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+h3, h4 {
+    padding-top: 5px;
+}
+
+#opening-para {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 75%;
+    
+}
+
+.product_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.product_card {
+    width: 400px;
+    height: 200px;
+    outline: 4px solid #820233;
+    text-align: center;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+background-color: #eee8e1;
+}
+
+.button {
+    -webkit-appearance: none;
+    background-color: #eee8e1;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    min-width: 50px;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 5px;
+    line-height: 1;
+    border: 2px solid #520031;
+    color: #520031;
+    max-width: 155px;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background-color:#520031;
+    color:#FEF2E4;
+}
+
+#bottle {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.quantity {
+    width: 10%;
+}
+
+.add_to_cart {
+    padding: 5px;
+}
+
+
+
+.fa fa-shopping-cart .yellow-color {
+    color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+
+.view_cart {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+/*For Cart.php*/
+
+#cart_para {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 75%;
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+#contents {
+    margin: 20px 50px;
+    display: block;
+
+}
+
+.thumbnail {
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+
+.hr_width {
+    width: 50%;
+    margin: 10px;
+}
+
+.button_float {
+    font-size: 8px;
+    ;
+    margin-top: 25px;
+    float: right;
+}
+
+#cart_buttons {
+    width: 70%;
+   text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+#received {
+
+    background-color: #eee8e1;
+    width: 40%;
+    padding: 20px;
+    display: block;
+    margin: 20px auto 20px auto;
+    box-shadow: 5px 10px 10px #0000008d;
+    text-align: center;
+}
+
+.home_button {
+    -webkit-appearance: none;
+    background: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    min-width: 90px;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px;
+    line-height: 1;
+    border: 2px solid #520031;
+    color: #520031;
+    
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.home_button:hover {
+    background-color:#520031;
+    color:#FEF2E4;
+}
+
+#customer {
+    width: 40%;
+    margin: 20px;
+    display: inline-block;
+    background-color: #eee8e1;
+   border: 3px solid #820233;
+    box-shadow: 5px 10px 10px #0000008d;
+
+}
+#cart {
+    width: 40%;
+    margin: 20px;
+    display: inline-block;
+    border: 3px solid #820233;
+    background-color: #eee8e1;
+    box-shadow: 5px 10px 10px #0000008d;
+}
+
+#maincontent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#add_customer {
+   padding:0 5% 5% 5%;
+}
